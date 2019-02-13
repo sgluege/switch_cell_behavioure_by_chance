@@ -58,7 +58,7 @@ namespace bdm {
 
               // switch behaviour based on a random number
               double myRandNumber = getSomeRandomNumer(); // get some random number from an uniform distribution in [0,1]
-              if (myRandNumber <= 0.5) ) {
+              if (myRandNumber <= 0.5) {
                 cell->SetCellType(2);
                 cell->SetCellColor(1);
 //                std::cout << "switch to cell type 2" << std::endl;
@@ -72,7 +72,7 @@ namespace bdm {
 
               // switch behaviour based on a random number
               double myRandNumber = getSomeRandomNumer(); // get some random number from an uniform distribution in [0,1]
-              if (myRandNumber <= 0.5) ) {
+              if (myRandNumber <= 0.5) {
                 cell->SetCellType(1);
                 cell->SetCellColor(0);
 //                std::cout << "switch to cell type 1" << std::endl;
